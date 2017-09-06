@@ -1,0 +1,73 @@
+<Sites>
+    <Site Name="Human Resources" Url="Human-Resources" Template="STS#0" />
+    <Site Name="Sales" Url="Sales" Template="STS#0">
+        <Site Name="Client 1" Url="Client-1" Template="STS#0" />
+        <Site Name="Client 2" Url="Client-2" Template="STS#0" />
+        <Site Name="Client 3" Url="Client-3" Template="STS#0" />
+        <List Name="Shared Documents" TemplateFeatureId="00bfea71-e717-4e80-aa17-d0c71b360101" />        
+        <List Name="Policies" TemplateFeatureId="00bfea71-e717-4e80-aa17-d0c71b360101" />        
+        <List Name="Team Photos" TemplateFeatureId="00bfea71-52d4-45b3-b544-b1c71b620109" />
+        <List Name="Quick Links" TemplateFeatureId="00bfea71-2062-426c-90bf-714c59600103" />
+        <List Name="News &amp; Announcements" TemplateFeatureId="00bfea71-d1ce-42de-9c63-a44004ce0104" />
+        <List Name="Team Contact" TemplateFeatureId="00bfea71-7e6d-4186-9ba8-c047ac750105" />
+        <List Name="Team Calendar" TemplateFeatureId="00bfea71-ec85-4903-972d-ebe475780106" />
+        <List Name="Forums &amp; Discussions" TemplateFeatureId="00bfea71-6a49-43fa-b535-d15c05500108" />
+        <List Name="Featured Links" TemplateFeatureId="192efa95-e50c-475e-87ab-361cede5dd7f" />
+        <List Name="Team Tasks" TemplateFeatureId="f9ce21f8-f437-4f7e-8bc6-946378c850f0" />
+        <List Name="Organization Survey" TemplateFeatureId="00bfea71-eb8a-40b1-80c7-506be7590102" />
+    </Site>
+    <Site Name="Projects" Url="Projects" Template="PROJECTSITE#0">
+        <Site Name="Project 1" Url="Project-1" Template="PROJECTSITE#0">
+            <Site Name="Team 1" Url="Team-1" Template="PROJECTSITE#0" />
+            <Site Name="Team 2" Url="Team-2" Template="PROJECTSITE#0" />
+            <Site Name="Team 3" Url="Team-3" Template="PROJECTSITE#0" />
+        </Site>
+        <Site Name="Project 2" Url="Project-2" Template="PROJECTSITE#0">
+            <Site Name="Team 1" Url="Team-1" Template="PROJECTSITE#0" />
+            <Site Name="Team 2" Url="Team-2" Template="PROJECTSITE#0" />
+            <Site Name="Team 3" Url="Team-3" Template="PROJECTSITE#0" />
+        </Site>
+        <Site Name="Project 3" Url="Project-3" Template="PROJECTSITE#0">
+            <Site Name="Team 1" Url="Team-1" Template="PROJECTSITE#0" />
+            <Site Name="Team 2" Url="Team-2" Template="PROJECTSITE#0" />
+            <Site Name="Team 3" Url="Team-3" Template="PROJECTSITE#0" />
+        </Site>
+        <List Name="Shared Documents" TemplateFeatureId="00bfea71-e717-4e80-aa17-d0c71b360101" />        
+        <List Name="Policies" TemplateFeatureId="00bfea71-e717-4e80-aa17-d0c71b360101" />        
+        <List Name="Team Photos" TemplateFeatureId="00bfea71-52d4-45b3-b544-b1c71b620109" />
+        <List Name="Quick Links" TemplateFeatureId="00bfea71-2062-426c-90bf-714c59600103" />
+        <List Name="News &amp; Announcements" TemplateFeatureId="00bfea71-d1ce-42de-9c63-a44004ce0104" />
+        <List Name="Team Contact" TemplateFeatureId="00bfea71-7e6d-4186-9ba8-c047ac750105" />
+        <List Name="Team Calendar" TemplateFeatureId="00bfea71-ec85-4903-972d-ebe475780106" />
+        <List Name="Forums &amp; Discussions" TemplateFeatureId="00bfea71-6a49-43fa-b535-d15c05500108" />
+        <List Name="Featured Links" TemplateFeatureId="192efa95-e50c-475e-87ab-361cede5dd7f" />
+        <List Name="Team Tasks" TemplateFeatureId="f9ce21f8-f437-4f7e-8bc6-946378c850f0" />
+        <List Name="Organization Survey" TemplateFeatureId="00bfea71-eb8a-40b1-80c7-506be7590102" />
+    </Site>
+    <Site Name="Marketing" Url="Marketing" Template="STS#0" />
+    <Site Name="Accounting" Url="Accounting" Template="STS#0" />
+    <Site Name="News" Url="News" Template="BLANKINTERNET#0" />
+    <Site Name="Executive Blog" Url="Blog" Template="BLOG#0">
+        <Site Name="CEO's Blog" Url="CEO" Template="BLOG#0" />
+        <Site Name="Mike's Wisdom" Url="Mike" Template="BLOG#0" />
+        <Site Name="Words from Shen" Url="Shen" Template="BLOG#0" />
+    </Site>
+    <Site Name="Search" Url="Search" Template="SRCHCEN#0" />
+    <Site Name="Reports" Url="Reports" Template="BICenterSite#0" />
+    <Site Name="OrgWiki" Url="OrgWiki" Template="WIKI#0" />
+    <Site Name="Document Center" Url="DocCenter" Template="BDR#0" />
+    <Site Name="Organization Policies" Url="OrgPolicies" Template="POLICYCTR#0"></Site>
+    <List Name="Shared Documents" TemplateFeatureId="00bfea71-e717-4e80-aa17-d0c71b360101" />        
+    <List Name="Policies" TemplateFeatureId="00bfea71-e717-4e80-aa17-d0c71b360101" />        
+    <List Name="Team Photos" TemplateFeatureId="00bfea71-52d4-45b3-b544-b1c71b620109" />
+    <List Name="Quick Links" TemplateFeatureId="00bfea71-2062-426c-90bf-714c59600103" />
+    <List Name="News &amp; Announcements" TemplateFeatureId="00bfea71-d1ce-42de-9c63-a44004ce0104" />
+    <List Name="Team Contact" TemplateFeatureId="00bfea71-7e6d-4186-9ba8-c047ac750105" />
+    <List Name="Team Calendar" TemplateFeatureId="00bfea71-ec85-4903-972d-ebe475780106" />
+    <List Name="Forums &amp; Discussions" TemplateFeatureId="00bfea71-6a49-43fa-b535-d15c05500108" />
+    <List Name="Featured Links" TemplateFeatureId="192efa95-e50c-475e-87ab-361cede5dd7f" />
+    <List Name="Team Tasks" TemplateFeatureId="f9ce21f8-f437-4f7e-8bc6-946378c850f0" />
+    <List Name="Organization Survey" TemplateFeatureId="00bfea71-eb8a-40b1-80c7-506be7590102" />
+    <Feature Id="f6924d36-2fa8-4f0b-b16d-06b7250180fa" Scope="Site"></Feature>
+    <Feature Id="94c94ca6-b32f-4da9-a9e3-1f3d343d7ecb" Scope="Web"></Feature>
+</Sites>

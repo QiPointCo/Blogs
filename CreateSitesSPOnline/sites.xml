@@ -1,0 +1,81 @@
+<Sites> 
+    <Site Name="Ayka" Url="Ayka" Template="STS#0"> 
+    
+        <Site Name="Department" Url="Department" Template="STS#0"> 
+            <Site Name="Human Resources" Url="Human-Resources" Template="STS#0">                
+                <Site Name="Record Center" Url="Records" Template="OFFILE#1" />
+                <Site Name="Discussions" Url="Discussions" Template="COMMUNITY#0"></Site> 
+                <List Name="Shared Documents" TemplateFeatureId="00bfea71-e717-4e80-aa17-d0c71b360101" />        
+                <List Name="Policies" TemplateFeatureId="00bfea71-e717-4e80-aa17-d0c71b360101" />        
+                <List Name="Team Photos" TemplateFeatureId="00bfea71-52d4-45b3-b544-b1c71b620109" />
+                <List Name="Quick Links" TemplateFeatureId="00bfea71-2062-426c-90bf-714c59600103" />
+                <List Name="News &amp; Announcements" TemplateFeatureId="00bfea71-d1ce-42de-9c63-a44004ce0104" />
+                <List Name="Team Contact" TemplateFeatureId="00bfea71-7e6d-4186-9ba8-c047ac750105" />
+                <List Name="Team Calendar" TemplateFeatureId="00bfea71-ec85-4903-972d-ebe475780106" />
+                <List Name="Forums &amp; Discussions" TemplateFeatureId="00bfea71-6a49-43fa-b535-d15c05500108" />
+                <List Name="Featured Links" TemplateFeatureId="192efa95-e50c-475e-87ab-361cede5dd7f" />
+                <List Name="Team Tasks" TemplateFeatureId="f9ce21f8-f437-4f7e-8bc6-946378c850f0" />
+                <List Name="Organization Survey" TemplateFeatureId="00bfea71-eb8a-40b1-80c7-506be7590102" />                
+            </Site> 
+            <Site Name="Accounting" Url="Accounting" Template="STS#0">                
+                <Site Name="Record Center" Url="Records" Template="OFFILE#1" />
+                <Site Name="Discussions" Url="Discussions" Template="COMMUNITY#0"></Site>
+            </Site>
+            <Site Name="Sales" Url="Sales" Template="STS#0">                
+                <Site Name="Record Center" Url="Records" Template="OFFILE#1" />
+                <Site Name="Discussions" Url="Discussions" Template="COMMUNITY#0"></Site>
+            </Site>
+            <Site Name="Finance" Url="Finance" Template="STS#0">       
+                <Site Name="Record Center" Url="Records" Template="OFFILE#1" />         
+                <Site Name="Discussions" Url="Discussions" Template="COMMUNITY#0"></Site>
+            </Site>
+            <Site Name="Marketing" Url="Marketing" Template="STS#0">     
+                <Site Name="Record Center" Url="Records" Template="OFFILE#1" />
+                <Site Name="Discussions" Url="Discussions" Template="COMMUNITY#0"></Site>           
+            </Site>
+            <List Name="Shared Documents" TemplateFeatureId="00bfea71-e717-4e80-aa17-d0c71b360101" />        
+            <List Name="Policies" TemplateFeatureId="00bfea71-e717-4e80-aa17-d0c71b360101" />        
+            <List Name="Team Photos" TemplateFeatureId="00bfea71-52d4-45b3-b544-b1c71b620109" />
+            <List Name="Quick Links" TemplateFeatureId="00bfea71-2062-426c-90bf-714c59600103" />
+            <List Name="News &amp; Announcements" TemplateFeatureId="00bfea71-d1ce-42de-9c63-a44004ce0104" />
+            <List Name="Team Contact" TemplateFeatureId="00bfea71-7e6d-4186-9ba8-c047ac750105" />
+            <List Name="Team Calendar" TemplateFeatureId="00bfea71-ec85-4903-972d-ebe475780106" />
+            <List Name="Forums &amp; Discussions" TemplateFeatureId="00bfea71-6a49-43fa-b535-d15c05500108" />
+            <List Name="Featured Links" TemplateFeatureId="192efa95-e50c-475e-87ab-361cede5dd7f" />
+            <List Name="Team Tasks" TemplateFeatureId="f9ce21f8-f437-4f7e-8bc6-946378c850f0" />
+            <List Name="Organization Survey" TemplateFeatureId="00bfea71-eb8a-40b1-80c7-506be7590102" /> 
+        </Site> 
+        <Site Name="News" Url="News" Template="BLANKINTERNET#0"></Site>
+        <Site Name="CMS Publishing" Url="CMS-Publishing" Template="CMSPUBLISHING#0"></Site>
+        <Site Name="Project" Url="Project" Template="PROJECTSITE#0"> 
+            <Site Name="Intranet Project" Url="Intranet-Project" Template="PROJECTSITE#0"/> 
+            <Site Name="Tumbloo" Url="Tumbloo" Template="PROJECTSITE#0"/> 
+            <Site Name="Jackbox " Url="Jackbox" Template="PROJECTSITE#0"/> 
+        </Site> 
+        <Site Name="Blog" Url="Blog" Template="BLOG#0"></Site>
+        <Site Name="Organization Policies" Url="OrgPolicies" Template="POLICYCTR#0"></Site>
+        
+        <Site Name="Organization Wiki" Url="Org-Wiki" Template="WIKI#0"></Site>
+        <Site Name="Document Center" Url="DocWorkspace" Template="BDR#0"></Site>        
+        <Site Name="Developer Site" Url="Developer" Template="DEV#0"></Site>
+        <Site Name="Community" Url="Community" Template="COMMUNITYPORTAL#0">            
+        </Site>
+        <List Name="Shared Documents" TemplateFeatureId="00bfea71-e717-4e80-aa17-d0c71b360101" />        
+        <List Name="Policies" TemplateFeatureId="00bfea71-e717-4e80-aa17-d0c71b360101" />        
+        <List Name="Team Photos" TemplateFeatureId="00bfea71-52d4-45b3-b544-b1c71b620109" />
+        <List Name="Quick Links" TemplateFeatureId="00bfea71-2062-426c-90bf-714c59600103" />
+        <List Name="News &amp; Announcements" TemplateFeatureId="00bfea71-d1ce-42de-9c63-a44004ce0104" />
+        <List Name="Team Contact" TemplateFeatureId="00bfea71-7e6d-4186-9ba8-c047ac750105" />
+        <List Name="Team Calendar" TemplateFeatureId="00bfea71-ec85-4903-972d-ebe475780106" />
+        <List Name="Forums &amp; Discussions" TemplateFeatureId="00bfea71-6a49-43fa-b535-d15c05500108" />
+        <List Name="Featured Links" TemplateFeatureId="192efa95-e50c-475e-87ab-361cede5dd7f" />
+        <List Name="Team Tasks" TemplateFeatureId="f9ce21f8-f437-4f7e-8bc6-946378c850f0" />
+        <List Name="Organization Survey" TemplateFeatureId="00bfea71-eb8a-40b1-80c7-506be7590102" />                
+        <Feature Id="94c94ca6-b32f-4da9-a9e3-1f3d343d7ecb" Scope="Web"></Feature>    
+    </Site>
+    <Site Name="Search" Url="Search" Template="SRCHCEN#0" />
+    <Site Name="Business Intelligence Center" Url="BICenter" Template="BICenterSite#0" />  
+    <List Name="Our Documents" TemplateFeatureId="00bfea71-e717-4e80-aa17-d0c71b360101" />
+    <Feature Id="f6924d36-2fa8-4f0b-b16d-06b7250180fa" Scope="Site"></Feature>
+    <Feature Id="94c94ca6-b32f-4da9-a9e3-1f3d343d7ecb" Scope="Web"></Feature>    
+</Sites>
