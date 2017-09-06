@@ -14,3 +14,5 @@ $siteCollectionUrl = '<Site Collection Url>'
 $username = '<Admin Username>'
 
 $password = '<Admin Password>'
+
+Note: This script requires the site collection with the root site to be created manually.
