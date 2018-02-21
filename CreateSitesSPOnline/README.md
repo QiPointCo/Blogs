@@ -1,9 +1,11 @@
 PowerShell to Create SharePoint Online Sub Sites, Libraries/Lists and Activate FeaturesPowerShell to Create SharePoint Online Sub Sites, Libraries/Lists and Activate Features
 
 
-This Powershell script is sample for the article 
+This Powershell script isalso explained in the article below
 
 http://www.qipoint.com/blog/powershell-to-create-sharepoint-online-sub-sites-librarieslists-and-activate-features/
+
+Instructions:
 
 Install SharePoint Online SDK here: https://www.microsoft.com/en-us/download/details.aspx?id=42038
 
