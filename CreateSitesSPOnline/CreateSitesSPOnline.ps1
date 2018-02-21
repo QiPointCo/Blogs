@@ -202,9 +202,9 @@ $xml = [xml](Get-Content "demosites.xml")
 $xml.PreserveWhitespace = $false
 
 # Initialize client context
-$siteCollectionUrl = 'https://company.sharepoint.com/sites/acme'
-$username = ''
-$password = '' 
+$siteCollectionUrl = "https://company.sharepoint.com/sites/acme"
+$username = "yourusername"
+$password = "yourpassword" 
 $securePassword = ConvertTo-SecureString $password -AsPlainText -Force    
 $Context = New-Object Microsoft.SharePoint.Client.ClientContext($siteCollectionUrl)
 $Creds = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($username,$securePassword)
