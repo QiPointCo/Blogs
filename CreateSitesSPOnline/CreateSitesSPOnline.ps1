@@ -31,6 +31,7 @@ function CreateLists
 {
     Param ($siteNode, $baseUrl)
 
+    Write-Output "Target Site URL for List Creation: " $baseUrl
     
     $Context = New-Object Microsoft.SharePoint.Client.ClientContext($baseUrl)
     $Creds = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($username,$securePassword)      
@@ -66,9 +67,11 @@ function CreateLists
             if($_.Exception.Message -like '*A list, survey, discussion board, or document library with the specified title already exists in this Web site*' )
 		    {
                 LogWarning "List already exists .. "
+                Write-Output "List already exists .. "
 			        
 		    }else{
                 LogError "Error creating lists " $_.Exception.Message $_.Exception.GetType().FullName $_.InvocationInfo.PositionMessage
+                Write-Output "Error creating lists " $_.Exception.Message $_.Exception.GetType().FullName $_.InvocationInfo.PositionMessage
             }
         }
     }
@@ -77,6 +80,7 @@ function Enable-Feature
 {
 	Param ($siteNode, $baseUrl)
     
+    Write-Output "Target Site URL for Feature Activation: " $baseUrl
     
     $Context = New-Object Microsoft.SharePoint.Client.ClientContext($baseUrl)
     $Creds = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($username,$securePassword)      
@@ -114,9 +118,11 @@ function Enable-Feature
              if($_.Exception.Message -like '*is already activated at scope*' -or $_.Exception.Message -like '*(407) Proxy Authentication Required*')
 		        {
                     LogWarning "Feature is already activated .. "
+                    Write-Output "Feature is already activated .. "
 			        
 		        }else{
                     LogError "Error Activating Feature " $_.Exception.Message $_.Exception.GetType().FullName $_.InvocationInfo.PositionMessage
+                    Write-Output "Error Activating Feature " $_.Exception.Message $_.Exception.GetType().FullName $_.InvocationInfo.PositionMessage
                 }
         }
         
@@ -127,7 +133,7 @@ function Enable-Feature
 } 
 function CreateSites($baseUrl, $sites, [int]$progressid) 
 {      
-
+    Write-Output "Target Site URL for Site Creation: " $baseUrl
 
     $sitecount = $sites.ChildNodes.Count 
     $counter = 0 
@@ -164,9 +170,11 @@ function CreateSites($baseUrl, $sites, [int]$progressid)
             if($_.Exception.Message -like '*is already in use.*' -or $_.Exception.Message -like '*(407) Proxy Authentication Required*')
 		    {
                 LogWarning "Site already exists .. "
+                Write-Output "Site already exists .. "
 			        
 		    }else{
                 LogError "Error Creating Sites " $_.Exception.Message $_.Exception.GetType().FullName $_.InvocationInfo.PositionMessage
+                Write-Output "Error Creating Sites " $_.Exception.Message $_.Exception.GetType().FullName $_.InvocationInfo.PositionMessage
             }
         }
         
@@ -194,11 +202,11 @@ $xml = [xml](Get-Content "demosites.xml")
 $xml.PreserveWhitespace = $false
 
 # Initialize client context
-$siteCollectionUrl = '<Site Collection Url>'
-$username = '< Admin Username>'
-$password = '< Admin Password>' 
+$siteCollectionUrl = 'https://company.sharepoint.com/sites/acme'
+$username = ''
+$password = '' 
 $securePassword = ConvertTo-SecureString $password -AsPlainText -Force    
-$Context = New-Object Microsoft.SharePoint.Client.ClientContext($baseUrl)
+$Context = New-Object Microsoft.SharePoint.Client.ClientContext($siteCollectionUrl)
 $Creds = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($username,$securePassword)
 $Context.Credentials = $Creds
     
